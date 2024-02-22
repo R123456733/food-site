@@ -95,22 +95,13 @@ transform: scale(1.09);
 }
 @media screen and (max-width:1000px){
    .items{
-grid-template-columns: repeat(2,1fr);
+grid-template-columns: repeat(1,1fr);
 
    } 
 }
 @media screen and (max-width:800px){
     .items{
- grid-template-columns: repeat(2,1fr);
+ grid-template-columns: repeat(1,1fr);
  
     } 
  }
-.logo{
-
-    height: 300px;
-    width: 20%;
-    margin: 0px;
-    margin-top: 0px;
-    padding: 0px;
-    text-align: left;
-}
